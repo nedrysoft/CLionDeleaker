@@ -1,10 +1,10 @@
-#CLionDeleaker
+# CLionDeleaker
 
 This is a small utility designed to act as a stub between CLion and Deleaker, it is used by deleaker to open the source file where a memory leak occured in CLion at the correct line.
 
 It brings the CLion project window to the foreground, opens the source file and positions the cursor at the line containing the leak.
 
-##Usage
+## Usage
 
 ```shell
 cliondeleaker.exe "C:\Program Files\JetBrains\CLion 2020.3\bin\clion64.exe" Pingnoo 100 "C:\Source\File.cpp"
